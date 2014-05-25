@@ -3,8 +3,22 @@ layout: default
 title: Home
 ---
 
-<!-- Show last 5 posts here -->
-{% for post in site.posts limit: 5  %}
+<h3>Useful Blogs</h3>
+
+<ul>
+  <li>http://erjjones.github.io/blog/Part-two-how-I-built-my-blog/, has Discus, Google Analytics, ... Also, this blog post: http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/</li>
+  <li>Look at permalink YAML setting to see if we can make a non-post oriented site: http://jekyllrb.com/docs/permalinks/.</li>
+  <li>Collections as an alternative to posts? http://jekyllrb.com/docs/collections/</li>
+  <li>Tag cloud: http://www.justkez.com/generating-a-tag-cloud-in-jekyll/</li>
+  <li>Nice format: http://whatwouldhartigando.com/tags.html</li>
+  <li>Blog on Rmd and jekyll: http://www.r-bloggers.com/creating-your-jekyll-bootstrap-powered-blog-for-r-blogging/</li>
+  <li>Multiple simultaneous output formats and links: https://github.com/fauno/jekyll-pandoc-multiple-formats</li>
+</ul>
+
+
+
+<!-- Show last 10 posts here -->
+{% for post in site.posts limit: 10  %}
 	<article>
 
         <header>

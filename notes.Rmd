@@ -1,2 +1,4 @@
 Notes:
 
+* Compile the site:
+    Shell command: `jekyll build`

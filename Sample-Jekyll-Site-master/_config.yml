@@ -1,8 +1,8 @@
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: Our First Site!
+name: Data and Computing Fundamentals (TEST SITE)
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: This is a sample Jekyll Blog.
+description: The site for materials relating to the "Data and Computing Fundamentals" course.
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Mengdie and Danny
@@ -18,10 +18,10 @@ category_dir: /
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/blog
 #baseurl: /path/to/blog 
-baseurl: 
+baseurl: file://localhost/Users/kaplan/KaplanFiles/Projects/TestingJekyll/Sample-Jekyll-Site-master/_site
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://yourdomain.com/
+url: ""
 
 #### Under the Hood Stuff #####
 
@@ -35,3 +35,10 @@ permalink: pretty
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, node_modules]
+
+
+# Danny added this http://jekyllrb.com/docs/collections/
+collections:
+  danny_collection:
+    output: true
+
